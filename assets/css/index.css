@@ -1,0 +1,673 @@
+@font-face {
+  font-family: plus jakarta sans;
+  src: url(../fonts/PlusJakartaSans-Regular.ttf);
+}
+
+  body{
+    font-family: Plus Jakarta Sans !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  h3{
+    color: #172121;
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 141.176% */
+
+  }
+  p{
+    color: #394242;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+  }
+  
+  /* --------------------------------------HEADER-PART STARTS HERE----------------------- */
+  
+  .header-part{
+    padding: 20px 0px;
+    position: fixed;
+    z-index: 9;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+  }
+  .header-part .header .header-right-text p{
+    color: #394242;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    
+  } 
+
+  /* ----------------------------------left template----------------------------------------- */
+  .left-template{
+    background-color: black !important;
+    height: 100%;
+    position: fixed;
+    width: 120px;
+    bottom: 0;
+    left: 0px ;
+    top: 80px;
+  }
+   .left-template .pre-process{
+    padding-top: 20px;
+  }
+  .left-template .chatdots{
+    padding-top: 10px;
+  }
+
+   /* -------------------------------------------------------FOOTER PART STARTS HERE---------------------------- */
+  .footer-part{
+    margin-top: 100px;
+    border-top: 1px solid gainsboro;
+    padding-top: 10px;
+  }
+   .footer-fixed{
+    position: fixed;
+    bottom: 0px;
+    top: auto;
+    width: 100%;
+    padding-left: 120px;
+    /* border: 1px solid gainsboro; */
+  }
+  .footer-fixed .login{
+    border: none;
+  }
+  .footer-fixed .footer-part .footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 0px;
+  }
+  .footer-part .footer .footer-left-text a{
+    color: var(--neutral-body, #394242);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    text-decoration: none;
+  }
+
+  /* -----------------------------------------------------BOTTOM PART FOR SMALL DEVICES---------------------------------------- */
+  .bottom{
+    display: none;
+  }
+
+
+  h3{
+    color: #172121;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+}
+
+  /* ---------------------------------------- INDEX CSS ------------------------------------------------------ */
+
+  /* BANNER-PART STARTS HERE */
+  /* .banner-part{
+    padding: 50px 0px;
+  }
+  .banner-part .banner-left-part{
+    padding-top: 250px;
+  }
+  
+  .banner-part .banner-left-part .banner-left-buttons a{
+    text-decoration: none;
+  }
+  .banner-part .banner-left-part .banner-left-buttons button{
+    width: 80%;
+    border: 1px solid #C6C8C8;
+    border-radius: 12px;
+  }
+  
+  .banner-part .banner-right-part{
+    background-image: url('../images/banner-image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px;
+    height: 650px;
+    z-index: -1;
+  }
+  .banner-part .banner-right-part .banner-carousel{
+    padding-top: 250px;
+    width: 100%;
+
+  }
+  .banner-part .banner-right-part .banner-carousel .carousel-main{
+    padding: 100px;
+    width: 90%;
+  }
+ 
+  .banner-part .banner-right-part .banner-carousel .carousel-main .carousel-text{
+    color: white;
+    font-weight: bold;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-align: center;
+    border-radius: 16px;
+    padding: 15px;
+    height: 50%;
+    border-radius: 50px;
+    background-color: rgba(169,169,169,0.3);
+  }
+
+  .footer-fixed .login{
+    border-top: none ;
+ } */
+
+.login-section .banner-section{
+  padding-top: 80px;
+}
+.login-section .banner-section .banner-content h2 {
+  font-family: Plus Jakarta Sans;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #394242;
+}
+.login-section .banner-section .banner-content p {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #394242;
+}
+.login-section .banner-section .banner-content .google {
+  width: Fixed (417px);
+  height: Hug (58px);
+  top: 528px;
+  left: 160px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 15px;
+}
+.login-section .banner-section .banner-content .google a {
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #394242;
+  text-decoration: none;
+}
+.login-section .banner-section .banner-content .github {
+  width: Fixed (417px);
+  height: Hug (58px);
+  top: 610px;
+  left: 160px;
+  padding: 15px;
+  border-radius: 12px;
+  gap: 15px;
+  background-color: #000000;
+}
+.login-section .banner-section .banner-content .github a {
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.login-section .banner-section .banner-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 200px 15px
+}
+.login-section .banner-section .banner-img {
+  background-image: url('../images/banner-image.png');
+  background-position: cover;
+  border-radius: 10px;
+  z-index: -1;
+}
+.login-section .banner-section .banner-img .text-carousel {
+  padding-top: 300px;
+  margin: 10px 10px;
+}
+.login-section .banner-section .banner-img .text-carousel .carousel-content {
+  padding: 10px 20px;
+  margin: 100px 60px 50px 60px;
+  position: relative;
+  background-color: rgba(169, 169, 169, 0.3);
+  border-radius: 15px;
+}
+.login-section .banner-section .banner-img .text-carousel .carousel-content h3 {
+  color: var(--neutral-white, #FFF);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 150% */
+}
+.login-section .banner-section .banner-img .text-carousel .carousel-content p {
+  color: var(--neutral-white, #FFF);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+/* --------------------------------PRE PROCESS CSS ---------------------------------------------------------- */
+
+.main-template .pre-process-template{
+  padding-top: 80px;
+  padding-left: 120px;
+}
+.main-template .middle-template{
+  background: #F7F7F7;
+  box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, 0.12) inset; 
+  padding-top: 40px;
+ 
+}
+.main-template .middle-template .middle-text h2{
+  color: #172121;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  text-align: center;
+}
+.main-template .middle-template .middle-image{
+  padding: 24px 14px;
+  display: flex;
+  flex-direction: column;
+}
+.main-template .middle-template .middle-image .middle-image-placeholder{
+  border: 2px dashed #9B9F9F;
+  border-radius: 12px;
+  height: 180px;
+  padding: 10px 10px;
+}
+.main-template .middle-template .middle-image .middle-image-placeholder .image-placeholder-content{
+  text-align: center;
+  padding-top: 25px ;
+}
+.main-template .middle-template .middle-image .middle-image-placeholder .image-placeholder-content img{
+  padding-bottom: 16px;
+}
+.main-template .middle-template .middle-image .middle-image-1 img{
+  padding-top: 24px;
+  width: 100%;
+}
+.main-template .middle-template .middle-image .middle-image-2 img{
+  padding-top: 24px;
+  width: 100%;
+}
+.main-template .middle-template .middle-button{
+  padding: 40px 15px;
+}
+.main-template .middle-template .middle-button button{
+  border-radius: 12px;
+}
+.main-template .template-selector{
+  padding-top: 40px;
+}
+.main-template .template-selector .main-template-selector-image{
+  padding: 24px 40px;
+}
+ .main-template .template-selector .template-selector-heading h3{
+  color: #394242;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  padding-left:40px;
+ }
+ .main-template .template-selector .template-selector-image{
+  border-radius: 16px;
+  border: 2px solid black;
+ }
+ .main-template .template-selector .template-selector-image img{
+  width: 100%;
+ }
+ .main-template .template-selector .template-selector-image figcaption{
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  padding: 12px 12px;
+ }
+
+
+ 
+  /* --------------------------------------- PAYMENT CSS ---------------------------------------------------------------- */
+  .payment-template{
+    padding-left: 120px;
+    padding-top: 80px;
+  }
+      .payment-template .payment-section{
+        display: flex;
+
+      }
+      .payment-template .payment-section .payment-content{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 100px auto;
+
+      }
+      .payment-template .payment-section .payment-content .payment-plan{
+        border: 1px solid gainsboro;
+        border-radius: 12px;
+        margin: 20px 30px;
+      }
+      .payment-template .payment-section .payment-content .payment-plan p{
+        color: #1F91D0;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        background: #D1F8FC;
+        padding: 10px 0px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+      }
+      .payment-template .payment-section .payment-content .payment-plan  h4{
+        color: var(--neutral-body, #394242);
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+      }
+      .payment-template .payment-section .payment-content .payment-plan .payment-body h2{
+        color: var(--neutral-black, #172121);
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; /* 141.176% */
+      }
+
+      .payment-template .payment-section .payment-content .payment-plan ul{
+        list-style: none;
+        padding-left: 0px;     
+      }
+      .payment-template .payment-section .payment-content .payment-plan li{
+        color: #394242;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+      }
+      .payment-template .payment-section .payment-content .annual{
+        background: #1F91D0;
+      }
+      
+      .payment-template .payment-plan .payment-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px;
+      }
+  
+      li::before{
+        content: url('../logo/CheckCircle.svg');
+        padding-right: 10px;
+      }
+      .annual li::before{
+        content: url(../logo/CheckCircle-white.png);
+        padding-right: 10px
+      }
+
+/* --------------------------------404 error page------------------------------------------------------------- */
+
+.error-banner{
+  padding-top: 80px;
+}
+@media screen and (max-width:768px) {
+  .error-banner{
+    padding-bottom: 200px;
+  }
+}
+
+
+/* ----------------------------------------access-denied-page----------------------------------------- */
+.access-banner{
+  padding-top: 80px;
+}
+
+/* ----------------------------------------------MEDIA QUERIES------------------------------------------------- */
+       
+      @media screen and (max-width:430px) {
+        .login-section .banner-section{
+          padding-bottom: 50px;
+          padding-top: 0px;
+        }
+        .payment-template{
+          padding-left: 0px;
+          padding-top: 0px;
+          padding-bottom: 100px;
+        }
+      .payment-template .payment-section{
+          display: flex;
+          border-top: 1px solid gainsboro;
+      }
+      .left-template{
+        position: fixed;
+        top: auto;
+        bottom: 0px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content:space-around ;
+        flex-direction: row;
+        z-index: 9;
+      }
+      .left-template .pre-process{
+        padding-top: 10px;
+      }
+      .main-template .pre-process-template {
+        padding-left: 0px;
+      }
+      .main-template .middle-template .middle-image {
+        width:350px ;
+        flex-direction: row;
+        overflow-x:auto;
+      }
+     
+      .main-template .middle-template .middle-image .middle-image-1 img{
+        margin-left: 10px;
+        width: 160px;
+        height: 185px;
+      }
+      .main-template .middle-template .middle-image .middle-image-2 img{
+        margin-left: 10px;
+        width: 160px;
+        height: 185px;
+      }
+      .main-template .middle-template .middle-image .middle-image-placeholder{
+        height: 160px;
+        width:160px;
+        margin-top: 25px;
+      }
+      .main-template .middle-template .middle-image .middle-image-placeholder .image-placeholder-content{
+        text-align: center;
+        padding-top: 8px ;
+      }
+      .main-template .middle-template .middle-text h2{
+        text-align: start;
+        margin-left: 10px;
+      }
+      .footer-fixed .login{
+        padding-bottom: 0px !important;
+      }
+      .footer-part{
+        padding-bottom: 100px;
+      }
+      .footer-part .footer{
+        padding-left: 0px;
+        margin-left:0px ;
+      }
+      .footer-part .footer .footer-left-text{
+        margin-left: 80px;
+      }
+      .footer-part .footer .footer-right-links{
+        margin-top: 10px;
+        margin-left: auto;
+      }
+      .footer-fixed{
+        padding-left: 0px;
+      }
+      }
+
+      @media screen  and (max-width:820px){
+        .main-template .middle-template .middle-image {
+          flex-direction: row;
+        }
+        .main-template .middle-template .middle-image .middle-image-1{
+          margin-left: 10px;
+        }
+        .main-template .middle-template .middle-image .middle-image-2{
+          margin-left: 10px;
+        }
+        .main-template .middle-template .middle-image .middle-image-placeholder{
+          height: 160px;
+          width: 40%;
+          margin-top: 25px;
+        }
+      }
+
+
+      /* @media screen  and (max-width:430px){
+        .left-template{
+          position: fixed;
+          top: auto;
+          bottom: 0px;
+          width: 100%;
+          height: 100px;
+          display: flex;
+          justify-content:space-around ;
+          flex-direction: row;
+        }
+        .left-template .pre-process{
+          padding-top: 10px;
+        }
+        .main-template .pre-process-template {
+          padding-left: 0px;
+        }
+        .main-template .middle-template .middle-image {
+          width:350px ;
+          flex-direction: row;
+          overflow-x:auto;
+        }
+        .main-template .middle-template .middle-image .middle-image-1 img{
+          margin-left: 10px;
+          width: 160px;
+          height: 185px;
+        }
+        .main-template .middle-template .middle-image .middle-image-2 img{
+          margin-left: 10px;
+          width: 160px;
+          height: 185px;
+        }
+        .main-template .middle-template .middle-image .middle-image-placeholder{
+          height: 160px;
+          width:160px;
+          margin-top: 25px;
+        }
+        .main-template .middle-template .middle-image .middle-image-placeholder .image-placeholder-content{
+          text-align: center;
+          padding-top: 8px ;
+        }
+        .main-template .template-selector{
+          height: 450px;
+          overflow-y: auto;
+        }
+        .footer-part{
+          padding-bottom: 100px;
+        }
+        .footer-part .footer{
+          margin-left: 60px;
+        }
+     
+      } */
+
+    
+      @media screen and (max-width:360px) {
+        .main-template .middle-template{
+          width:350px;
+        } 
+        .main-template .middle-template .middle-image {
+          width:350px ;
+          flex-direction: row;
+          overflow-x:auto;
+        }
+        .main-template .template-selector{
+          width: 350px;
+        }
+        .footer-part{
+          padding-bottom: 90px;
+        }
+        .footer-part .footer{
+          margin-left: 10px;
+        }
+      }
+      @media screen and (max-width:768px) {
+        .login-section .banner-section{
+          padding-bottom: 120px;
+          padding-top: 0px;
+
+        }
+        .access-banner{
+          padding-bottom: 200px;
+        }
+
+        .payment-template .payment-section{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+                }
+        .payment-template .payment-section .payment-content .payment-plan{
+          margin-top: 20px;
+        }
+         .footer{
+          display: flex;
+          background-color: white;
+          margin-left: 10px;
+          }
+        .footer-fixed .footer-part .footer .footer-right-links{
+          padding-right: 140px;
+        }
+        .footer-fixed{
+          padding-left: 0px;
+        }
+        .footer-fixed .login .footer .footer-left-text{
+          /* padding-left: 50px; */
+          margin-left:80px ;
+        }
+        }
+      
